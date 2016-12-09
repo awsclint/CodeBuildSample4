@@ -9,6 +9,7 @@ phases:
     commands:
       - echo Build completed on `date`
       - mvn package
+      - echo 'Hi fenchell"
 artifacts:
   files:
     - target/my-app-1.0-SNAPSHOT.jar
